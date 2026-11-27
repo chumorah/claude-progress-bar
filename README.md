@@ -38,7 +38,15 @@ claude plugin install task-progress --marketplace chumorah/claude-progress-bar
 
 In the desktop app, where `/plugin` does not run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `chumorah/claude-progress-bar`, then **Add plugin**.
 
-This repository is private: installing needs read access to it on GitHub and a git credential for github.com on your computer (an SSH key, or `gh auth login` then `gh auth setup-git`).
+Or, on a Mac, without typing the GitHub name: click **Code**, then **Download ZIP** on this page, double-click the zip in Downloads, then in Terminal:
+
+```bash
+bash ~/Downloads/claude-progress-bar-main/install.sh
+```
+
+The installer keeps a copy in `~/.claude/mods/claude-progress-bar`, so the download can be deleted afterwards. Start a new Claude Code session to see the bar.
+
+To remove it: `claude plugin uninstall task-progress`.
 
 ## Develop
 
