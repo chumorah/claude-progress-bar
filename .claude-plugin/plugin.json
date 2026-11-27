@@ -1,0 +1,7 @@
+{
+  "name": "task-progress",
+  "version": "0.1.0",
+  "description": "A progress bar above the prompt: which step Claude is on, how many steps there are, what it is doing now, and about how long is left.",
+  "types": "./types/index.d.ts",
+  "license": "MIT"
+}
